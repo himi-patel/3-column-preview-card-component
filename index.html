@@ -67,10 +67,11 @@
       button {
         padding: 15px 50px;
         border-radius: 30px;
-        border: none;
+        border:2px solid  hsl(0, 0%, 95%);
         margin-top: 100px;
         font-family: "Lexend Deca";
         font-weight: 400;
+
       }
       img {
         margin-top: -20px;
@@ -90,6 +91,12 @@
       .luxury {
         background-color: hsl(179, 100%, 13%);
       }
+      button:hover
+      {
+        background-color: transparent;
+        color: hsl(0, 0%, 95%);
+        border:2px solid  hsl(0, 0%, 95%);
+      }
       @media screen and (max-width: 900px) {
         .container {
           max-width: 350px;
@@ -107,6 +114,7 @@
         button {
           margin-top: 40px;
         }
+        
       }
     </style>
   </head>
